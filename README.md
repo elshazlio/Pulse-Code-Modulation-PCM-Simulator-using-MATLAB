@@ -3,6 +3,8 @@ MATLAB PCM System Simulator demonstrating digital signal processing fundamentals
 
 Our MATLAB-based Pulse Code Modulation (PCM) System Simulator provides a comprehensive implementation of digital signal processing fundamentals. The simulator demonstrates the complete PCM chain: sampling, quantization, encoding, decoding, and signal reconstruction. The system supports both uniform and nonuniform (μ-law) quantization, multiple encoding schemes (unipolar, polar, and Manchester), and includes advanced signal reconstruction with adaptive interpolation. While the default implementation uses a cosine test signal, the system is designed to process any arbitrary input signal within the specified amplitude range.
 
+Features
+
     Interactive parameter selection through a GUI dialog
     Support for multiple encoding schemes (unipolar, polar, and Manchester)
     Implementation of both uniform and μ-law quantization
